@@ -1,0 +1,111 @@
+.navigation-bars {
+  background-color: none !important;
+  width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation-bars a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.gradient-text {
+  display: inline;
+  color: 'fff';
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(55deg, #0dc5fd 0%, #0168ff 100%);
+}
+
+.main-page-secondtext {
+  font-size: 2rem;
+  text-align: center;
+  display: inline;
+  color: 'fff';
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(80deg, #0dc5fd 0%, #0168ff 100%);
+}
+
+.main-page-secondtext p {
+  margin-bottom: 0;
+}
+
+.main-page-second-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .navigation-bars {
+    width: 60vw;
+  }
+}
+
+.main-page-second-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-page-second-block-about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45vw;
+}
+
+.main-page-second-block-background {
+  background: url("./img/main-secon-block.JPG") no-repeat;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25), 10px 10px 20px rgba(170, 169, 169, 0.068);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25), 10px 10px 20px rgba(170, 169, 169, 0.068);
+  background-position: 0px 0px;
+  background-size: cover;
+  width: 45vw;
+  height: 80%;
+  border-radius: 3%;
+}
+
+.text-about-us {
+  width: 80%;
+}
+
+.text-about-us h2 {
+  font-size: 5rem;
+}
+
+.text-about-us p {
+  font-size: 1.5rem;
+}
+
+.map-wrapper {
+  height: 1000px;
+  width: 50vw;
+}
+/*# sourceMappingURL=main.css.map */
